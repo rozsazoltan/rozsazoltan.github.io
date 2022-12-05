@@ -1,0 +1,27 @@
+IndexIgnore *
+Options -Indexes -MultiViews +FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html
+
+Header set Cache-Control "max-age=31536000"
+
+<FilesMatch "\.(htaccess|htpasswd|ini|php|phps|fla|psd|log|sh|env)$">
+	Order Allow,Deny
+	Deny from all
+</FilesMatch>
+<Files "index.html">
+	Order Allow,Deny
+	Allow from all
+</Files>
+<FilesMatch ".(xml|woff|woff2|ttf|eot|otf|svg)$">
+	Order Allow,Deny
+	Allow from all
+</FilesMatch>
+<FilesMatch "\.(?i:pdf)$">
+    Header set Content-Type: application/pdf
+    Header set Content-Disposition: inline
+</FilesMatch>
