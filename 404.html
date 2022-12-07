@@ -22,9 +22,11 @@ permalink: /404.html
 				const current = `${domain}/${folder}`;
 				if (url.startsWith(current)) {
 					location.href = `${current}/index.html?${url.replace(`${current}/`, '')}`;
-					break;
+					return;
 				}
 			}
+
+			location.href = `${domain}/${folders[0]}`;
 		};
 		findProject();
 	</script>
