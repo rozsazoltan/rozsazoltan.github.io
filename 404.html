@@ -11,14 +11,31 @@ permalink: /404.html
 	<title>Rózsa Zoltán # Szoftverfejlesztő</title>
 	
 	<script>
-		const openPortfolio = () => location.href = 'https://rozsazoltan.github.io/portfolio';
-		openPortfolio();
+		const findProject = () => {
+			const url = window.location.href
+			const domain = 'https://rozsazoltan.github.io';
+			const folders = [
+				'portfolio',
+			];
+
+			for (const folder of folders) {
+				const current = `${domain}/${folder}`;
+				if (url.startsWith(current)) {
+					location.href = `${current}/index.html?${url.replace(`${current}/`, '')}`;
+					break;
+				}
+			}
+		};
+		findProject();
 	</script>
 </head>
 <body>
-	<div>
-		<span>Rózsa Zoltán # Szoftverfejlesztő</span>
-		<button onclick="openPortfolio()">Tovább az oldalra</button>
+	<div id="prod">
+		<div>Rózsa Zoltán # Szoftverfejlesztő</div>
+		<hr>
+		<div>Engedélyezze a JavaScript használatát!</div>
+		<hr>
+		<a href="https://rozsazoltan.github.io/portfolio"><button>Tovább az oldalra</button></a>
 	</div>
 </body>
 </html>
