@@ -1,0 +1,9 @@
+/**
+ * Datarose Production - @package portfolio
+ *
+ * @version v1.1.4
+ * @author Rózsa Zoltán
+ * @since 2022 - All rights reserved!
+ */
+
+import{f as e}from"./index-b8836d4b.js";const a={"sotfware-developer":"Szoftverfejlesztő",backend:"szerveroldal / backend",frontend:"kliensoldal / frontend",design:"design / frontend",database:"adatbázis",integration:"integráció",security:"biztonság","version-control":"verziókezelés",extra:"extra",menu:{"as-developer":"mint fejlesztő","as-partner":"mint társ","privacy-policy":"adatvédelmi irányelvek","not-found":"[a keresett tartalom nem található]"},header:{slogen:"make it work, make it right, make it fast","slogen-hint":"csináld működősképesre, csináld hiba nélkül, jól, csináld minnél rövidebb kóddal, leggyorsabban"},home:{experience:"tapasztalat","experience-description":"Weboldal, mobilalkalmazás (Android és iOS), asztali alkalmazás (Windows, macOS, Linux), böngésző-kiegészítő készítése. CentOS használata, cPanel ismeretek, domainkezelés. Biztonság- és teljesítményorientált szemlélet.",skills:"képességek","skills-description":"Mind a szerveroldali, mind a kliensoldali munkákban aktívan helyt tudok állni. Otthonosan mozgok az adatbázis szerkezetek elkészítésében, karbantartásában és fejlesztésében. Rendelkezem tapasztalattal a modern környezetek, verziókezelő rendszerek kezelésében."},about:{"why-programming":"Miért éppen a programozás?","why-programming-description":"Szeretem a logikát, az új megoldások kidolgozását és a sakkozást. Szívesen szembesülök kihívásokkal, és élvezem az olyan dolgokat fejlesztését, amelyek megkönnyíthetik mások munkáját. Rengeteg hasznos tapasztalatom van, amit szeretnék kamatoztatni. Mindazonáltal, mindig úgy érzem, hogy mindennap egyre szélesebb sperpektívában láthatok rá a szoftverfejlesztés világára, mégis egyre többet nem tudok. Az IT rohamosan fejlődik, és lépést kell tartanom vele."}},s=e(a);export{s as default};
