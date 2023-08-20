@@ -1,0 +1,5 @@
+{
+  "title": "Hogyan működik a Vue.js watch() és a JavaScript megfigyelők",
+  "content": "Reaktív változóváltozások észlelése Vue-ban a watch() használatával. Függvény hívása elem átméretezésekor JavaScript megfigyelővel.",
+  "tags": ["vue", "javascript"]
+}

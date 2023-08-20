@@ -1,0 +1,5 @@
+{
+  "title": "Típusdefiníció Vue v-for & key használata TypeScript generikusokkal",
+  "content": "Ismerje meg, hogyan használhatja a TypeScript generikusokat a Vue v-for tömbjének és az egyedi :key típusok hatékony meghatározásához, javítva Vue fejlesztését. Szerezzen betekintést a Vue renderelésének optimalizálásába erős típusozással.",
+  "tags": ["vue", "typescript"]
+}

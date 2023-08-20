@@ -1,0 +1,5 @@
+{
+  "title": "Laravel Eloquent Casts és Kollekció Típusok Deklarálása",
+  "content": "Kollekció típusoszlop meghatározása Laravel modellben, oszloptartalom automatikus átalakítása a megfelelő típusra. Hogyan működik ez a Laravel 8 előtt és után?",
+  "tags": ["laravel"]
+}

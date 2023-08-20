@@ -1,0 +1,5 @@
+{
+  "title": "A defineProps() használata Vue.js-ben az Egyszerűsített Elemekkel Való Interakcióhoz",
+  "content": "A Vue 3 Composition API-ban egy adott elem tulajdonságai definiálhatók, és azok értékeit felhasználják a sablon- és scriptkódokban. Fedezze fel az egyszerűsített elemi interakciót.",
+  "tags": ["vue"]
+}

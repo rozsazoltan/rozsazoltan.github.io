@@ -1,0 +1,5 @@
+{
+  "title": "Using defineProps() in Vue.js for Streamlined Element Interaction",
+  "content": "In Vue 3 Composition API, properties of a specific element are defined and their values utilized within the template and script codes. Explore streamlined element interaction.",
+  "tags": ["vue"]
+}

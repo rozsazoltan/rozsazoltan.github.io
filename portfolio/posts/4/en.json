@@ -1,0 +1,5 @@
+{
+  "title": "Type definition of Vue v-for & key with TypeScript generics",
+  "content": "Learn how to utilize TypeScript generics to define the array for Vue's v-for and individual :key types effectively, enhancing your Vue development. Gain insights into optimizing Vue rendering with strong typing.",
+  "tags": ["vue", "typescript"]
+}

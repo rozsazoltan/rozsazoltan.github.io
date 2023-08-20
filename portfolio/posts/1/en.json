@@ -1,0 +1,5 @@
+{
+  "title": "How to work Vue.js watch() & JavaScript observers",
+  "content": "Reactive variable change detection in Vue using watch(). Invoking function on element resize with JavaScript observer.",
+  "tags": ["vue", "javascript"]
+}
