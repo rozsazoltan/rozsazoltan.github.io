@@ -1,0 +1,5 @@
+{
+  "title": "Dynamic theme switching in PrimeVue",
+  "content": "How does the style loading logic of PrimeVue work, and how can a different style be loaded at runtime to change the theme?",
+  "tags": ["vue", "primevue"]
+}

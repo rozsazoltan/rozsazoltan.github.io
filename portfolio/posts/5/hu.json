@@ -1,0 +1,5 @@
+{
+  "title": "Dinamikus téma váltás a PrimeVue keretrendszerben",
+  "content": "Hogyan működik a PrimeVue stílusbetöltési logikája, és hogyan lehet futásidőben más stílust betölteni a téma megváltoztatásához?",
+  "tags": ["vue", "primevue"]
+}
