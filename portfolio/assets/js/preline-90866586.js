@@ -1,7 +1,7 @@
 /**
  * Datarose Production - @package portfolio
  *
- * @version v2.0.0
+ * @version v2.1.0
  * @author Rózsa Zoltán
  * @since 2022 - All rights reserved!
  */
